@@ -126,7 +126,7 @@ function showError(prefix, error) {
 
 // Atributos extras de configuração de e-mail
 var actionCodeSettings = {
-  url: 'https://127.0.0.1'
+  url: 'https://todolist-84473.firebaseapp.com'
 }
 
 var database = firebase.database()

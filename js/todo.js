@@ -23,7 +23,7 @@ todoForm.onsubmit = function (event) {
 function fillTodoList(dataSnapshot) {
   ulTodoList.innerHTML = ''
   var num = dataSnapshot.numChildren()
-  todoCount.innerHTML = num + (num > 1 ? ' disciplinas' : ' disciplina') + ':' // Exibe na interface o número de disciplinas
+  todoCount.innerHTML = num + (num > 1 ? ' tarefas' : ' tarefa') + ':' // Exibe na interface o número de disciplinas
   dataSnapshot.forEach(function (item) { // Percorre todos os elementos
     var value = item.val()
     var li = document.createElement('li') // Cria um elemento do tipo li
